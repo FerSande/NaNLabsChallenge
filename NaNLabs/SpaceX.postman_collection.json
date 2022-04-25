@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "4a249fd2-c1e9-43c8-accd-0353e5a0ddf2",
+		"name": "SpaceX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"type\":\"bug\",\"description\":\"bug test\"}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/trello_tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"trello_tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
